@@ -1,0 +1,31 @@
+@import 'variables';
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    margin:10px 80px;
+    display: flex;
+    justify-content: space-between;
+    .pages{
+        display: flex;
+        justify-content: space-between;
+        p{
+            margin-right: 10px;
+        }
+    }
+    .icons{
+        margin-right: 10px;
+
+    }
+    .link{
+        background-color: $darkprimary;
+        padding: 30px;
+        text-decoration: none;
+        color: $black;
+        font-weight: bold;
+    }
+}

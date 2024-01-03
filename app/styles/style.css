@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  margin: 10px 80px;
+  display: flex;
+  justify-content: space-between;
+}
+nav .pages {
+  display: flex;
+  justify-content: space-between;
+}
+nav .pages p {
+  margin-right: 10px;
+}
+nav .icons {
+  margin-right: 10px;
+}
+nav .link {
+  background-color: #F3DD8C;
+  padding: 30px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */
